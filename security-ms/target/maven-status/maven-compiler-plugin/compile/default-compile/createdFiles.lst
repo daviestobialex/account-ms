@@ -1,0 +1,13 @@
+com/example/config/EmbeddedKeycloakRequestFilter$1.class
+com/example/config/SimplePlatformProvider$1.class
+com/example/config/SimplePlatformProvider.class
+META-INF/spring-configuration-metadata.json
+com/example/AuthorizationServerApp.class
+com/example/config/RegularJsonConfigProviderFactory.class
+com/example/config/EmbeddedKeycloakRequestFilter.class
+com/example/config/Resteasy3Provider.class
+com/example/config/EmbeddedKeycloakConfig$1.class
+com/example/config/EmbeddedKeycloakApplication.class
+com/example/config/EmbeddedKeycloakConfig.class
+com/example/config/KeycloakServerProperties.class
+com/example/config/KeycloakServerProperties$AdminUser.class

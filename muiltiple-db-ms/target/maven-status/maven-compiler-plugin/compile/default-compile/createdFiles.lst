@@ -1,0 +1,8 @@
+com/example/tenant/one/TenantOneConfiguration.class
+META-INF/spring-configuration-metadata.json
+com/example/tenant/one/User.class
+com/example/BasicApplication.class
+com/example/tenant/two/UserRepo.class
+com/example/tenant/two/User.class
+com/example/tenant/one/UserRepo.class
+com/example/tenant/two/TenantTwoConfiguration.class

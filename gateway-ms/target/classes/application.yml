@@ -1,0 +1,31 @@
+server:
+  port: 9080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: security-ms
+        uri: http://localhost:9081/
+        predicates:
+        - Path=/auth/**
+      - id: account-ms
+        uri: http://localhost:9082/
+        predicates:
+        - Path=/api/account/**
+      - id: report-ms
+        uri: http://localhost:8082/
+        predicates:
+        - Path=/api/report/**
+management:
+  endpoints:
+    web:
+     exposure:
+      include: "*"
+              
+logging:
+ level:
+   root: info 
+   org:
+     springframework:
+       web: info
