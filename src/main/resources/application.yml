@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9081/auth/realms/activeedge
+          
+server:
+  port: 9082
+  servlet.context-path: /api
+
+logging:
+ level:
+   root: info 
+   org:
+     springframework:
+       web: info
